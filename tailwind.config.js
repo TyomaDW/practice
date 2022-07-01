@@ -5,8 +5,8 @@ module.exports = {
   darkMode: "media", // or 'class'
   theme: {
     screens: {
-      sm: "390px",
-      lg: "1020px",
+      xs: "390px",
+      sm: "1020px",
     },
     colors: ({ colors }) => ({
       inherit: colors.inherit,
