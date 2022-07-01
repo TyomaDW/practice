@@ -23,7 +23,7 @@ export default function ButonsRow() {
       <div className="fixed inset-x-9 bottom-0 sm:static sm:mr-4">
         <button
           type="button"
-          className="flex items-center z-10 text-white bg-green-400 hover:bg-green-300 focus:ring-green-200 font-semibold rounded-full text-xl px-[87px] sm:px-8 py-4 text-center mb-5 sm:mb-0"
+          className="flex items-center z-10 text-white bg-green-400 hover:bg-green-300 focus:ring-green-200 font-semibold rounded-full text-xl px-[85px] sm:px-8 py-4 text-center mb-5 sm:mb-0"
         >
           <img className="mr-4" src={add} alt="icon" />
           Add Event
