@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../data/timezones.json";
-import icon from "./Icons/icon.svg";
+import icon from "../icons/icon.svg";
 
 export default function Header() {
   return (
