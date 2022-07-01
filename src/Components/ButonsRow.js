@@ -8,13 +8,13 @@ export default function ButonsRow() {
         <div className="flex flex-col sm:flex-row sm:rounded-full sm:py-2.5 bg-slate-300 rounded-[18px] px-4">
           <button
             type="button"
-            className="text-white bg-blue-600 font-semibold rounded-full text-xl py-2 text-center mb-1.5 mt-3 sm:mb-0 sm:mt-0 sm:px-14 sm:mr-12"
+            className="text-white bg-blue-500 font-semibold rounded-full text-xl py-2 text-center mb-1.5 mt-3 sm:mb-0 sm:mt-0 sm:px-14 sm:mr-12"
           >
             Published
           </button>
           <button
             type="button"
-            className="active:text-white active:bg-blue-600 font-semibold rounded-full text-xl py-2 text-center mb-3 sm:mb-0 sm:mt-0 sm:px-14"
+            className="active:text-white active:bg-blue-500 font-semibold rounded-full text-xl py-2 text-center mb-3 sm:mb-0 sm:mt-0 sm:px-14"
           >
             Unpublished
           </button>
