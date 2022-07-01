@@ -1,10 +1,8 @@
 {
-	"events": [
-			"event": {
-				"id": 0,
-				"title": "Lorem ipsum dolor sit amet",
-				"time": "2022-06-27T07:07:08.350Z",
-				"isPublished": false
-			}
-	]
+  "event": {
+    "id": 0,
+    "title": "Lorem ipsum dolor sit amet",
+    "time": "2022-06-27T07:07:08.350Z",
+    "isPublished": false
+  }
 }
