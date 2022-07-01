@@ -1,4 +1,5 @@
 import React from "react";
+import data from "../data/timezones.json";
 import icon from "./Icons/icon.svg";
 
 export default function Header() {
@@ -17,17 +18,23 @@ export default function Header() {
               Select Timezone
             </h2>
           </div>
-          <div class="flex justify-center lg:items-center">
-            <select class="block w-full appearance-none bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
+          <div className="flex justify-center lg:items-center">
+            <select
+              className="block w-full appearance-none bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
+              name="timezones"
+              onChange={function () {}}
+            >
               <option className="font-medium text-lg text-center">
                 Central European Time
               </option>
-              <option className="font-medium text-lg text-center">
-                Option 2
-              </option>
-              <option className="font-medium text-lg text-center">
-                Option 3
-              </option>
+              {Object.keys(data.timezones).map((item) => (
+                <option
+                  key={data.timezones[item].id}
+                  value={data.timezones[item].name}
+                >
+                  {data.timezones[item].name}
+                </option>
+              ))}
             </select>
           </div>
         </div>
