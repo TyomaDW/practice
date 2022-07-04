@@ -6,15 +6,11 @@ import EventList from "./components/EventList";
 
 const App = () => {
   return (
-    <body>
-      <header>
-        <Header />
-      </header>
-      <main>
-        <ButonsRow />
-        <EventList />
-      </main>
-    </body>
+    <div>
+      <Header />
+      <ButonsRow />
+      <EventList />
+    </div>
   );
 };
 
