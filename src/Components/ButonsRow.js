@@ -3,8 +3,8 @@ import add from "../icons/add.svg";
 
 export default function ButonsRow() {
   return (
-    <div className="container mx-auto sm:flex sm:justify-between">
-      <div className="px-4">
+    <div className="container mx-auto sm:flex sm:justify-between sm:pb-11">
+      <div className="px-4 pb-5 sm:pb-0">
         <div className="flex flex-col sm:flex-row sm:rounded-full sm:py-2.5 bg-slate-300 rounded-[18px] px-4">
           <button
             type="button"
